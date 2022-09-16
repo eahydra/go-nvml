@@ -24,7 +24,7 @@ import "C"
 
 const (
 	nvmlLibraryName      = "libnvidia-ml.so.1"
-	nvmlLibraryLoadFlags = dl.RTLD_LAZY | dl.RTLD_GLOBAL
+	nvmlLibraryLoadFlags = dl.RTLD_LAZY
 )
 
 var nvml *dl.DynamicLibrary
